@@ -8,6 +8,7 @@ AWS System Manager Parameter store is a service that allows to management variab
 In order to maintain an ordered structure for the creation of variables and access to them, it is necessary to create a structure in which it is easily identifiable which environment and service the variables belonged to:
 
 Variable structure:
+
 /PRESENTATION-LAYER/ENVIRONMENT/APPLICATION-NAME/VARIABLE-NAME
 
 Example:
