@@ -8,10 +8,11 @@ AWS System Manager Parameter store is a service that allows to management variab
 In order to maintain an ordered structure for the creation of variables and access to them, it is necessary to create a structure in which it is easily identifiable which environment and service the variables belonged to:
 
 Variable structure:
-/ <PRESENTATION LAYER> / <ENVIRONMENT> / <APPLICATION NAME> / <VARIABLE NAME>
+/PRESENTATION-LAYER/ENVIRONMENT/APPLICATION-NAME/VARIABLE-NAME
 
 Example:
 This is how the variable SPRING_PROFILE is defined for the video microservice in the dev environment in backend
+
 /backend/dev/video/SPRING_PROFILE
 
 This approach allows you to define variables and secrets for each one of the project applications and allows to execute the script without any change, if you have a different path structure you must make some changes in the script
