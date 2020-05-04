@@ -20,12 +20,18 @@ This approach allows you to define variables and secrets for each one of the pro
 
 ## Create a Report
 
+First install the dependencies libraries and execute the script ssm-parameter-store-report.py, it will create a new file report.xlsx with the information of the SSM variables.
+
 ```
 pip install -r requirements.txt
 python ssm-parameter-store-report.py
 ls
 ```
 
+Please feel free to make any improvements in the script.
+
 ## Report Example
+
+The report is a simple spreadsheet in xlsx format, it will show all variables created in their different environments.
 
 ![Screenshot](images/Example-Report.png)
